@@ -7,7 +7,7 @@ on:
   - cron: "0 0,12, * * *"    # 00:00/12:00 UTC
 
 env:
-  RELEASE_LIMIT: 1000 # release同步的数量 最新的几个
+  RELEASE_LIMIT: 3 # release同步的数量 最新的几个
   FORK_REPO: ${{ github.repository }}
   TEMP_DIR: ~/temp
 
